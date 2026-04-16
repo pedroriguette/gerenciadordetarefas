@@ -1,0 +1,21 @@
+{
+  "tasks": [
+    {
+      "name": "Trabalhar",
+      "id": "_nZQaQihih0"
+    },
+    {
+      "name": "Lava a louça",
+      "id": "2zvaoSVNyWU"
+    },
+    {
+      "name": "Limpar a área ",
+      "id": "hxQawIX1tFw"
+    },
+    {
+      "name": "Estudar",
+      "id": "50BBjXchtFM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
