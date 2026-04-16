@@ -56,7 +56,7 @@ class appTask {
     }
 
     renderTasksCheck() {
-        const searchCheck = document.querySelector('#list_task').addEventListener('change', (e) => {
+        document.querySelector('#list_task').addEventListener('change', (e) => {
             if (e.target.type === 'checkbox') {
                 const selectedCheck = document.querySelectorAll('input[type="checkbox"]:checked').length
                 const taskCheck = document.querySelector('#tasks-check')
@@ -68,7 +68,6 @@ class appTask {
                 }
             }
         })
-        return searchCheck
     }
 
     async setup() {
